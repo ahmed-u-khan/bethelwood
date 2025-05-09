@@ -163,16 +163,14 @@ Based on the complex systems landscape at Bethelwood, we're facing several data-
 
 #### 1. Data Integration Layer
 - **ELT Pipeline Implementation**: Roll out modern Extract, Load, Transform (ELT) approach using tools like Fivetran, Airbyte, or Stitch
-- **API Management**: Deploy an API gateway (e.g., Apigee, MuleSoft) to standardize access to source systems
-- **Event Streaming**: Implement Kafka or AWS Kinesis for real-time data streams from high-velocity sources
-- **Custom Connectors**: Build custom connectors for legacy systems with limited integration capabilities
-- **Data Ingestion Orchestration**: Use Airflow or similar workflow tool to manage and monitor data pipelines
+- **Custom Connectors**: Build custom connectors for legacy systems with limited integration capabilities - (most likely not needed) 
+- **Data Ingestion Orchestration**: Use Airflow or similar workflow tool to manage and monitor data ingestion pipelines; Fivetran/Stitch, Airbyte will most likely handle this - (most likely not needed) 
 
 #### 2. Cloud Data Warehouse
-- **Centralized Repository**: Set up Snowflake, BigQuery, or Redshift as the core data warehouse
-- **Data Modeling**: Apply dimensional modeling approach with Kimball methodology for analytical views
-- **Data Lake Integration**: Establish S3 or Azure Data Lake storage for raw/unstructured data
-- **Query Optimization**: Implement performance tuning, partitioning strategies, and query acceleration
+- **Centralized Repository**: Set up Snowflake, BigQuery, or utilize onprem db as the core data warehouse
+- **Data Modeling**: Use DBT to build out OBT type data models - this modelling technique will allow us to remain agile and provide the quickest time to value vs. dimensional/kimbal modelling techniques
+- **Data Lake Integration**: Establish S3 or GCP or SNowflake based Data Lake storage for raw/unstructured data if needed
+- **Query Optimization**: Implement performance tuning, partitioning strategies, and query acceleration where applicable to save on costs
 - **Scalable Architecture**: Design for automatic scaling to handle peak loads during events and campaigns
 
 #### 3. Transformation Layer
