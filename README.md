@@ -213,7 +213,7 @@ Based on the complex systems landscape at Bethelwood, we're facing several data-
 ## Resource Requirements
 
 ### Technology Investments
-- Based on past experience, 50k is usually the number, however depending on size/frequency of data, it could easily be 30k overall or 90k
+- Based on past experience, 50k is usually the number, however depending on size/frequency of data and the wants/needs of the business the cost could easily be as low as 30k or as high as 100k
   - requires more research and understanding of data quantity and data needs
   - [mock estimates found here](https://docs.google.com/spreadsheets/d/19v6Bvfe8vfoMX7NeeI3TjSo80HiE9OV6etiyEJ2RZBw/edit?gid=0#gid=0)
 
@@ -243,9 +243,9 @@ Based on the complex systems landscape at Bethelwood, we're facing several data-
 - Begin documentation of existing manual reporting processes
 - Conduct stakeholder interviews to identify priority use cases
 - Complete gap analysis between current and desired state
+- Finalize selection of cloud data warehouse platform
 
 ### 60 Days: Foundation Building & Early Wins
-- Finalize selection of cloud data warehouse platform
 - Deploy initial cloud data warehouse environments (DEV/TEST)
 - Implement first data integration for highest-priority system (likely Ticketmaster)
 - Develop prototype of executive KPI dashboard with available data
@@ -253,31 +253,33 @@ Based on the complex systems landscape at Bethelwood, we're facing several data-
 - Create initial data dictionary and business glossary
 - Deliver first "quick win" project for immediate stakeholder value
 - Design initial dimensional data models for core entities
+- Complete deployment of production cloud data warehouse environment
+- Implement dbt for transformation management and version control
+- Finalize selection of self-service BI tool after conducting POCs and getting input from various stakeholders
 
 ### 90 Days: Core Infrastructure & First Insights
-- Complete deployment of production cloud data warehouse environment
 - Implement data integrations for top 3 critical systems
 - Develop and deploy core data models for primary business entities
+- Implement automated anomaly detection and alerting system
 - Create first version of executive KPI dashboard with cross-system data
 - Establish automated data quality monitoring for integrated systems
 - Complete data integration roadmap for remaining systems
 - Conduct initial training sessions for power users in key departments
 - Implement basic data security and access control framework
 - Deliver second "quick win" project focusing on operational efficiency
+- Train core users on self-service analytics tools and capabilities
 
 ### 180 Days: Value Expansion & Analytics Foundation
 - Complete integration of all mission-critical systems into data warehouse
 - Deploy first production dashboards for all key departments
 - Implement automated reporting for critical business metrics
 - Deliver initial customer 360° profile consolidation for top segments
-- Train core users on self-service analytics tools and capabilities
 - Launch data literacy program across the organization
-- Implement dbt for transformation management and version control
 - Complete initial impact measurement framework design with Director of Impact
-- Deploy real-time data pipelines for event-driven use cases
 - Establish complete data governance protocols and data stewardship program
 - Create first audience segmentation models for marketing
-- Implement A/B testing framework for digital experience optimization
+- Implement A/B testing framework and analytics for digital experience optimization
+- Create advanced data catalog with lineage tracking
 
 ### 360 Days: Advanced Analytics & Insights Maturity
 - Complete integration of all remaining systems into data warehouse
@@ -287,26 +289,20 @@ Based on the complex systems landscape at Bethelwood, we're facing several data-
 - Develop full automated impact measurement reporting framework
 - Enhance digital analytics implementation with journey mapping
 - Implement advanced visualization capabilities across departments
-- Deploy data quality remediation automated workflows
-- Launch machine learning models for audience insights and recommendations
 - Create advanced marketing attribution modeling
 - Develop comprehensive impact reporting system for all stakeholders
 - Implement natural language processing for feedback analysis
 - Begin personalization engine development for digital experiences
-- Establish MLOps framework for model management and monitoring
-- Create advanced data catalog with lineage tracking and impact analysis
+- Integrate analytics directly into operational workflows across departments
 
 ### 720 Days: Intelligence Embedding & Innovation
 - Deploy recommendation engines for personalized visitor experiences
-- Integrate analytics directly into operational workflows across departments
-- Implement automated anomaly detection and alerting system
 - Create predictive maintenance system for facility management
 - Develop comprehensive data storytelling framework and templates
 - Build augmented analytics capabilities with AI-assisted insights
 - Implement scenario planning tools for strategic decision making
 - Create advanced forecasting models with multiple variables
 - Deploy decision intelligence systems for key operational processes
-- Implement real-time analytics for event management
 - Create dynamic pricing optimization models for ticketing
 - Develop donor lifetime value and propensity modeling
 - Build comprehensive impact analytics connecting all program activities
