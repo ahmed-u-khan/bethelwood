@@ -29,31 +29,15 @@
    - [180 Days: Value Expansion & Analytics Foundation](#180-days-value-expansion--analytics-foundation)
    - [360 Days: Advanced Analytics & Insights Maturity](#360-days-advanced-analytics--insights-maturity)
    - [720 Days: Intelligence Embedding & Innovation](#720-days-intelligence-embedding--innovation)
-7. [Risk Management](#risk-management)
+7. [Future State Vision](#future-state-vision)
+8. [Risk Management](#risk-management)
     - [Key Risks and Mitigation Strategies](#key-risks-and-mitigation-strategies)
-8. [Governance Structure](#governance-structure)
+9. [Governance Structure](#governance-structure)
     - [Data Governance Council](#data-governance-council)
     - [Working Groups](#working-groups)
     - [Decision Framework](#decision-framework)
     - [Operational Oversight](#operational-oversight)
-9. [Anticipated Outcomes & Success Metrics](#anticipated-outcomes--success-metrics)
-    - [Short-term Outcomes (180 days)](#short-term-outcomes-180-days)
-    - [Medium-term Outcomes (360 days)](#medium-term-outcomes-360-days)
-    - [Long-term Outcomes (720 days)](#long-term-outcomes-720-days)
-    - [Key Success Metrics](#key-success-metrics)
-10. [Future State Vision](#future-state-vision)
-11. [Modern Data Stack Best Practices](#modern-data-stack-best-practices)
-    - [Data Integration Best Practices](#data-integration-best-practices)
-    - [Data Modeling Best Practices](#data-modeling-best-practices)
-    - [Analytics Implementation Best Practices](#analytics-implementation-best-practices)
-    - [Data Governance Best Practices](#data-governance-best-practices)
-12. [Strategic Initiatives](#strategic-initiatives)
-   - [Data Governance & Foundation](#1-data-governance--foundation-months-1-3)
-   - [Modern Data Integration Platform](#2-modern-data-integration-platform-months-3-9)
-   - [Analytics Enablement & Democratization](#3-analytics-enablement--democratization-months-6-12)
-   - [Mission Impact Measurement Framework](#4-mission-impact-measurement-framework-months-3-12)
-   - [Customer 360 & Experience Enhancement](#5-customer-360--experience-enhancement-months-9-18)
-13. [Resource Requirements](#resource-requirements)
+10. [Resource Requirements](#resource-requirements)
     - [Technology Investments](#technology-investments)
     - [People Resources](#people-resources)
     - [Skills Development](#skills-development)
@@ -311,6 +295,21 @@ Based on the complex systems landscape at Bethelwood, we're facing several data-
 
 ---
 
+## Future State Vision
+
+In 18-24 months, Bethelwood will have transformed its data capabilities to enable:
+
+- **Holistic Understanding**: 360-degree view of constituents across all touchpoints powered by unified data platform
+- **Predictive Intelligence**: AI-driven insights guiding programming, marketing, and development decisions
+- **Self-Service Culture**: Democratized access to insights with appropriate governance guardrails
+- **Impact Storytelling**: Data-driven narratives demonstrating Bethelwood's cultural and educational value
+- **Operational Excellence**: Automated workflows and decision support embedded in daily operations
+- **Strategic Agility**: Scenario planning and what-if analysis capabilities for rapid adaptation
+
+This upgrade will position Bethelwood to better deliver on its vision of making the world a better place through music and arts, with data as a key asset backing everything we do.
+
+---
+
 ## Risk Management
 
 ### Key Risks and Mitigation Strategies
@@ -357,61 +356,6 @@ Based on the complex systems landscape at Bethelwood, we're facing several data-
 
 ---
 
-## Anticipated Outcomes & Success Metrics
-
-### Short-term Outcomes (180 days)
-- Consolidated executive dashboard with cross-system KPIs
-- 50% reduction in manual reporting effort
-- Initial customer 360 profiles for top segments
-- Automated impact reporting for key programs
-- Data literacy baseline established across organization
-- All mission-critical systems integrated into data warehouse
-- Self-service analytics adoption by 40% of intended users
-
-### Medium-term Outcomes (360 days)
-- 100% of systems integrated into data warehouse
-- Self-service analytics adoption by 70% of intended users
-- Predictive models deployed for attendance and revenue
-- Complete customer journey mapping and optimization
-- Impact measurement framework fully operational
-- Data quality improvement of 60% across critical data elements
-- Marketing attribution models driving 10% campaign efficiency
-
-### Long-term Outcomes (720 days)
-- Advanced personalization driving 15% increase in engagement
-- Data-driven decisions embedded in all major processes
-- Automated anomaly detection and proactive alerts
-- Machine learning models driving operational efficiency
-- Comprehensive impact storytelling supported by data
-- AI-powered recommendation engines for visitor experiences
-- Predictive maintenance reducing facility costs by 12%
-- Multi-touch attribution increasing marketing ROI by 20%
-- Donor lifetime value optimization improving fundraising by 15%
-
-### Key Success Metrics
-- **Integration Success**: % of systems integrated, data refresh reliability
-- **Data Quality**: Error rates, completeness scores, consistency metrics
-- **Analytics Adoption**: Active users, report utilization, self-service ratio
-- **Business Impact**: Revenue attribution, cost savings, process efficiency
-- **Mission Impact**: Program outcome metrics, stakeholder satisfaction
-
----
-
-## Future State Vision
-
-In 18-24 months, Bethelwood will have transformed its data capabilities to enable:
-
-- **Holistic Understanding**: 360-degree view of constituents across all touchpoints powered by unified data platform
-- **Predictive Intelligence**: AI-driven insights guiding programming, marketing, and development decisions
-- **Self-Service Culture**: Democratized access to insights with appropriate governance guardrails
-- **Impact Storytelling**: Data-driven narratives demonstrating Bethelwood's cultural and educational value
-- **Operational Excellence**: Automated workflows and decision support embedded in daily operations
-- **Strategic Agility**: Scenario planning and what-if analysis capabilities for rapid adaptation
-
-This upgrade will position Bethelwood to better deliver on its vision of making the world a better place through music and arts, with data as a key asset backing everything we do.
-
----
-
 ## Governance Structure
 
 ### Data Governance Council
@@ -438,157 +382,6 @@ This upgrade will position Bethelwood to better deliver on its vision of making 
 - Data quality scorecards by domain
 - System integration status dashboard
 - Adoption and usage metrics tracking
-
----
-
-## Modern Data Stack Best Practices
-
-### Data Integration Best Practices
-- Prioritize ELT over ETL for flexibility and raw data preservation
-- Implement idempotent data pipelines for reliable processing
-- Use change data capture techniques for efficient incremental loads
-- Apply schema evolution handling for source system changes
-- Implement data pipeline observability and monitoring
-
-### Data Modeling Best Practices
-- Apply dimensional modeling for analytical workloads
-- Implement slowly changing dimensions for historical tracking
-- Create conformed dimensions for cross-functional analysis
-- Use intermediate models for complex transformations
-- Document business definitions alongside technical implementation
-
-### Analytics Implementation Best Practices
-- Design for mobile-first consumption where appropriate
-- Implement progressive disclosure in dashboard design
-- Create guided analytics paths for new users
-- Apply consistent visualization standards and color palettes
-- Design for accessibility compliance in all deliverables
-
-### Data Governance Best Practices
-- Implement "just enough" governance to enable rather than restrict
-- Apply data classification to guide security controls
-- Create federated ownership model with central coordination
-- Implement automated lineage and impact analysis
-- Establish data quality service level agreements
-
----
-
-## Strategic Initiatives
-
-### 1. Data Governance & Foundation (Months 1-3)
-
-#### Data Governance Framework
-- Set up Data Governance Council with folks from each department
-- Define roles and responsibilities (Data Owners, Data Stewards, Data Custodians)
-- Create data classification taxonomy (Public, Internal, Confidential, Restricted)
-- Implement data lifecycle management policies (retention, archiving, deletion)
-- Develop standard operating procedures for data handling
-
-#### Data Asset Inventory
-- Conduct comprehensive system and data audit across all departments
-- Document data lineage for critical organizational metrics
-- Assess data quality using profiling tools to identify patterns and issues
-- Create prioritized fix-it plan for critical data quality issues
-- Establish data dictionary with business and technical definitions
-
-#### Security & Compliance Framework
-- Conduct data privacy impact assessment
-- Develop data anonymization and masking strategy for sensitive information
-- Implement audit logging and monitoring for data access
-- Create data breach response plan and procedures
-- Establish compliance reporting dashboard for executive visibility
-
-### 2. Modern Data Integration Platform (Months 3-9)
-
-#### Cloud Data Warehouse Implementation
-- Pick and implement cloud data warehouse (we recommend Snowflake given existing Ticketmaster One integration)
-- Design scalable multi-tenant architecture with separate environments (DEV, TEST, PROD)
-- Implement cost monitoring and optimization strategies
-- Configure auto-scaling parameters to handle seasonal event fluctuations
-- Establish backup and disaster recovery protocols
-
-#### Data Integration Architecture
-- Implement ELT framework with change data capture capabilities
-- Deploy Fivetran (or similar) connectors for SaaS applications
-- Develop custom connectors for legacy systems (Archtics/Sybase)
-- Establish real-time integration patterns for time-sensitive data
-- Create data pipeline monitoring and alerting system
-
-#### Core Data Models
-- Design conformed dimensions for cross-system analysis (customer, event, program, etc.)
-- Implement slowly changing dimension methodology for historical tracking
-- Create consolidated fact tables for transactions, interactions, and activities
-- Build semantic layer for business-friendly data access
-- Develop reusable data models for common analytical patterns
-
-### 3. Analytics Enablement & Democratization (Months 6-12)
-
-#### Self-Service Analytics Platform
-- Deploy organization-wide BI platform with role-based security model
-- Create guided analytics experiences for different user personas
-- Develop training program for data literacy and tool usage
-- Establish analytics center of excellence for best practices
-- Implement dashboard certification process for quality assurance
-
-#### Executive Intelligence Suite
-- Design executive dashboard with strategic KPIs aligned to mission
-- Create financial performance analytics with revenue attribution
-- Implement donor/patron lifecycle analytics
-- Build program impact visualization aligned with Theory of Change
-- Develop predictive indicators for strategic planning
-
-#### Departmental Analytics Solutions
-- **Marketing**: Campaign performance, customer journey analytics, channel attribution
-- **Development**: Donor analytics, gift forecasting, grant impact reporting
-- **Operations**: Venue utilization, staffing optimization, inventory analytics
-- **Programming**: Event performance, audience demographics, experience ratings
-- **Education**: Program outcomes, participant analytics, curriculum effectiveness
-
-### 4. Mission Impact Measurement Framework (Months 3-12)
-
-#### Theory of Change Integration
-- Partner with Director of Impact to formalize Theory of Change model
-- Map data sources to impact pathways and outcomes
-- Develop output and outcome metrics with measurement methodologies
-- Create attribution models for mission-related activities
-- Establish benchmarking framework for industry comparisons
-
-#### Impact Data Collection System
-- Design integrated survey and feedback collection system
-- Implement program evaluation data capture workflows
-- Create participant tracking across multiple touchpoints
-- Develop qualitative data coding and analysis framework
-- Build longitudinal study capabilities for long-term impact
-
-#### Stakeholder Reporting System
-- Design board-level impact dashboards with strategic alignment
-- Create donor-focused impact reporting templates
-- Develop community impact visualization and storytelling tools
-- Build grant-specific outcome reporting automation
-- Implement public-facing impact data visualization
-
-### 5. Customer 360 & Experience Enhancement (Months 9-18)
-
-#### Unified Customer Data Platform
-- Implement customer data platform (CDP) functionality
-- Create identity resolution across disparate systems
-- Build behavioral segmentation and propensity models
-- Develop personalization scoring algorithms
-- Establish privacy-compliant preference management
-
-#### Digital Experience Analytics
-- Implement comprehensive web and mobile analytics
-- Create user journey mapping and friction analysis
-- Deploy heat mapping and session recording for usability insights
-- Establish conversion funnel analytics and optimization
-- Develop content engagement scoring system
-
-#### Experience Optimization Framework
-- Design A/B testing capability for digital touchpoints
-- Create recommendation engine for personalized experiences
-- Implement next-best-action analytics for staff interactions
-- Develop churn prediction and intervention models
-- Build loyalty analytics and engagement scoring
 
 ---
 
