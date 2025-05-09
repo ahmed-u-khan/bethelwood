@@ -313,30 +313,6 @@ Based on the complex systems landscape at Bethelwood, we're facing several data-
 
 ---
 
-## Resource Requirements
-
-### Technology Investments
-- Cloud data warehouse licensing ($30-50K annually)
-- Data integration platform licensing ($15-25K annually)
-- Business intelligence platform licensing ($10-20K annually)
-- Infrastructure costs for cloud storage and compute ($15-25K annually)
-- Specialized tools for data quality, governance, etc. ($10-20K annually)
-
-### People Resources
-- Cross-functional data working group (0.1 FTE per member)
-- Data analyst to support implementation (potential future hire, Year 2)
-- External consultants for specialized implementation (budget: $50-75K)
-- Training and enablement resources ($5-10K annually)
-
-### Skills Development
-- Data literacy training program for all staff
-- Advanced analytics training for power users
-- Tool-specific certification for key stakeholders
-- Change management and adoption workshops
-- Executive data interpretation coaching
-
----
-
 ## Risk Management
 
 ### Key Risks and Mitigation Strategies
@@ -383,32 +359,27 @@ Based on the complex systems landscape at Bethelwood, we're facing several data-
 
 ---
 
-## Governance Structure
+## Resource Requirements
 
-### Data Governance Council
-- CEO as executive sponsor
-- Director of Data System Integration and Analytics as chair
-- Department heads as data domain owners
-- Bi-weekly meetings during implementation phase
-- Monthly meetings for ongoing governance
+### Technology Investments
+- Cloud data warehouse licensing ($30-50K annually)
+- Data integration platform licensing ($15-25K annually)
+- Business intelligence platform licensing ($10-20K annually)
+- Infrastructure costs for cloud storage and compute ($15-25K annually)
+- Specialized tools for data quality, governance, etc. ($10-20K annually)
 
-### Working Groups
-- **Data Quality Working Group**: Focus on data standards and quality remediation
-- **Analytics Working Group**: Focus on reporting and visualization standards
-- **Impact Measurement Working Group**: Focus on program evaluation framework
-- **Technical Working Group**: Focus on architecture and integration issues
+### People Resources
+- Cross-functional data working group (0.1 FTE per member)
+- Data analyst to support implementation (potential future hire, Year 2)
+- External consultants for specialized implementation (budget: $50-75K)
+- Training and enablement resources ($5-10K annually)
 
-### Decision Framework
-- RACI matrix for all data-related decisions
-- Escalation paths for issue resolution
-- Change management process for data model evolution
-- Data prioritization framework based on strategic value
-
-### Operational Oversight
-- Weekly status reporting during implementation phases
-- Data quality scorecards by domain
-- System integration status dashboard
-- Adoption and usage metrics tracking
+### Skills Development
+- Data literacy training program for all staff
+- Advanced analytics training for power users
+- Tool-specific certification for key stakeholders
+- Change management and adoption workshops
+- Executive data interpretation coaching
 
 ---
 
@@ -464,6 +435,35 @@ In 18-24 months, Bethelwood will have transformed its data capabilities to enabl
 - **Strategic Agility**: Scenario planning and what-if analysis capabilities for rapid adaptation
 
 This upgrade will position Bethelwood to better deliver on its vision of making the world a better place through music and arts, with data as a key asset backing everything we do.
+
+---
+
+## Governance Structure
+
+### Data Governance Council
+- CEO as executive sponsor
+- Director of Data System Integration and Analytics as chair
+- Department heads as data domain owners
+- Bi-weekly meetings during implementation phase
+- Monthly meetings for ongoing governance
+
+### Working Groups
+- **Data Quality Working Group**: Focus on data standards and quality remediation
+- **Analytics Working Group**: Focus on reporting and visualization standards
+- **Impact Measurement Working Group**: Focus on program evaluation framework
+- **Technical Working Group**: Focus on architecture and integration issues
+
+### Decision Framework
+- RACI matrix for all data-related decisions
+- Escalation paths for issue resolution
+- Change management process for data model evolution
+- Data prioritization framework based on strategic value
+
+### Operational Oversight
+- Weekly status reporting during implementation phases
+- Data quality scorecards by domain
+- System integration status dashboard
+- Adoption and usage metrics tracking
 
 ---
 
