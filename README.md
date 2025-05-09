@@ -10,56 +10,57 @@
 3. [Current State Assessment](#current-state-assessment)
    - [Data Systems Inventory](#data-systems-inventory)
    - [Key Challenges](#key-challenges)
-4. [Analytics Infrastructure](#analytics-infrastructure)
+4. [Analytics Use Cases](#analytics-use-cases)
+   - [Executive Decision Support](#executive-decision-support)
+   - [Marketing & Audience Development](#marketing--audience-development)
+   - [Visitor Experience Enhancement](#visitor-experience-enhancement)
+   - [Development & Fundraising](#development--fundraising)
+   - [Program Impact Measurement](#program-impact-measurement)
+5. [Analytics Infrastructure](#analytics-infrastructure)
    - [Data Integration Layer](#1-data-integration-layer)
    - [Cloud Data Warehouse](#2-cloud-data-warehouse)
    - [Transformation Layer](#3-transformation-layer)
    - [Business Intelligence, Data Science & Advanced Analytics](#4-business-intelligence-data-science--advanced-analytics)
    - [Data Governance & Security](#5-data-governance--security)
-5. [Implementation Approach: Phased Timeline](#implementation-approach-phased-timeline)
+6. [Implementation Approach: Phased Timeline](#implementation-approach-phased-timeline)
    - [First 30 Days: Assessment & Initial Setup](#first-30-days-assessment--initial-setup)
    - [60 Days: Foundation Building & Early Wins](#60-days-foundation-building--early-wins)
    - [90 Days: Core Infrastructure & First Insights](#90-days-core-infrastructure--first-insights)
    - [180 Days: Value Expansion & Analytics Foundation](#180-days-value-expansion--analytics-foundation)
    - [360 Days: Advanced Analytics & Insights Maturity](#360-days-advanced-analytics--insights-maturity)
    - [720 Days: Intelligence Embedding & Innovation](#720-days-intelligence-embedding--innovation)
-6. [Analytics Use Cases](#analytics-use-cases)
-   - [Executive Decision Support](#executive-decision-support)
-   - [Marketing & Audience Development](#marketing--audience-development)
-   - [Visitor Experience Enhancement](#visitor-experience-enhancement)
-   - [Development & Fundraising](#development--fundraising)
-   - [Program Impact Measurement](#program-impact-measurement)
-7. [Resource Requirements](#resource-requirements)
-    - [Technology Investments](#technology-investments)
-    - [People Resources](#people-resources)
-    - [Skills Development](#skills-development)
-8. [Risk Management](#risk-management)
+7. [Risk Management](#risk-management)
     - [Key Risks and Mitigation Strategies](#key-risks-and-mitigation-strategies)
-9. [Governance Structure](#governance-structure)
+8. [Governance Structure](#governance-structure)
     - [Data Governance Council](#data-governance-council)
     - [Working Groups](#working-groups)
     - [Decision Framework](#decision-framework)
     - [Operational Oversight](#operational-oversight)
-10. [Anticipated Outcomes & Success Metrics](#anticipated-outcomes--success-metrics)
+9. [Anticipated Outcomes & Success Metrics](#anticipated-outcomes--success-metrics)
     - [Short-term Outcomes (180 days)](#short-term-outcomes-180-days)
     - [Medium-term Outcomes (360 days)](#medium-term-outcomes-360-days)
     - [Long-term Outcomes (720 days)](#long-term-outcomes-720-days)
     - [Key Success Metrics](#key-success-metrics)
-11. [Future State Vision](#future-state-vision)
-12. [Appendix: Modern Data Stack Best Practices](#appendix-modern-data-stack-best-practices)
+10. [Future State Vision](#future-state-vision)
+11. [Appendix: Modern Data Stack Best Practices](#appendix-modern-data-stack-best-practices)
     - [Data Integration Best Practices](#data-integration-best-practices)
     - [Data Modeling Best Practices](#data-modeling-best-practices)
     - [Analytics Implementation Best Practices](#analytics-implementation-best-practices)
     - [Data Governance Best Practices](#data-governance-best-practices)
-13. [Strategic Initiatives](#strategic-initiatives)
+12. [Strategic Initiatives](#strategic-initiatives)
    - [Data Governance & Foundation](#1-data-governance--foundation-months-1-3)
    - [Modern Data Integration Platform](#2-modern-data-integration-platform-months-3-9)
    - [Analytics Enablement & Democratization](#3-analytics-enablement--democratization-months-6-12)
    - [Mission Impact Measurement Framework](#4-mission-impact-measurement-framework-months-3-12)
    - [Customer 360 & Experience Enhancement](#5-customer-360--experience-enhancement-months-9-18)
-14. [Technical Architecture Details](#technical-architecture-details)
+13. [Technical Architecture Details](#technical-architecture-details)
    - [Source Systems Integration](#source-systems-integration)
    - [Data Warehouse Architecture](#data-warehouse-architecture)
+14. [Resource Requirements](#resource-requirements)
+    - [Technology Investments](#technology-investments)
+    - [People Resources](#people-resources)
+    - [Skills Development](#skills-development)
+
 
 ---
 
@@ -147,6 +148,45 @@ Based on the complex systems landscape at Bethelwood, we're facing several data-
 9. **Limited Data Governance**: Lack of standardized data definitions, quality controls, and master data management across systems
 
 10. **Technical Complexity**: Diverse technology stack with varying database platforms (Sybase, SQL, MySQL, Android OS, proprietary systems) making integration tricky
+
+---
+
+## Analytics Use Cases
+
+### Executive Decision Support
+- **Strategic Dashboard**: One-stop-shop view of mission, financial, and operational KPIs
+- **Scenario Planning**: Interactive what-if analysis for programming decisions
+- **Board Reporting**: Automated generation of board materials with impact metrics
+- **Financial Forecasting**: Rolling 12-month projection with variance analysis
+- **Risk Analytics**: Early warning system for operational and financial risks
+
+### Marketing & Audience Development
+- **Campaign Attribution**: Multi-touch attribution for ticket sales and donations
+- **Audience Segmentation**: Behavioral clustering for targeted messaging
+- **Channel Optimization**: ROI analysis by marketing channel and campaign
+- **Conversion Analytics**: Funnel analysis from awareness to purchase/donation
+- **Retention Modeling**: Predictive churn analysis and intervention triggers
+
+### Visitor Experience Enhancement
+- **Journey Mapping**: Cross-channel experience tracking and optimization
+- **Satisfaction Analytics**: NPS and satisfaction scoring with driver analysis
+- **Personalization Engine**: Next-best-offer recommendations for visitors
+- **On-site Analytics**: Movement patterns and engagement heat mapping
+- **Feedback Analysis**: NLP-based theme extraction from visitor comments
+
+### Development & Fundraising
+- **Donor Lifecycle Management**: Stage-based analytics and intervention triggers
+- **Gift Propensity Modeling**: Predictive scoring for major gift potential
+- **Grant Impact Reporting**: Automated outcomes measurement for funders
+- **Membership Analytics**: Conversion, renewal, and upgrade path optimization
+- **Wealth Screening Integration**: Data enrichment and prioritization scoring
+
+### Program Impact Measurement
+- **Outcome Tracking**: Measurement against Theory of Change framework
+- **Educational Impact**: Learning outcomes and participant progress analytics
+- **Community Engagement**: Reach and representation analytics by demographic
+- **Cultural Preservation**: Historical awareness and knowledge transfer metrics
+- **Economic Impact**: Visitor spending and local economic contribution analysis
 
 ---
 
@@ -271,45 +311,6 @@ Based on the complex systems landscape at Bethelwood, we're facing several data-
 - Implement automated data documentation and knowledge management
 - Create innovation lab for testing emerging data technologies
 - Develop comprehensive ROI measurement framework for data initiatives
-
----
-
-## Analytics Use Cases
-
-### Executive Decision Support
-- **Strategic Dashboard**: One-stop-shop view of mission, financial, and operational KPIs
-- **Scenario Planning**: Interactive what-if analysis for programming decisions
-- **Board Reporting**: Automated generation of board materials with impact metrics
-- **Financial Forecasting**: Rolling 12-month projection with variance analysis
-- **Risk Analytics**: Early warning system for operational and financial risks
-
-### Marketing & Audience Development
-- **Campaign Attribution**: Multi-touch attribution for ticket sales and donations
-- **Audience Segmentation**: Behavioral clustering for targeted messaging
-- **Channel Optimization**: ROI analysis by marketing channel and campaign
-- **Conversion Analytics**: Funnel analysis from awareness to purchase/donation
-- **Retention Modeling**: Predictive churn analysis and intervention triggers
-
-### Visitor Experience Enhancement
-- **Journey Mapping**: Cross-channel experience tracking and optimization
-- **Satisfaction Analytics**: NPS and satisfaction scoring with driver analysis
-- **Personalization Engine**: Next-best-offer recommendations for visitors
-- **On-site Analytics**: Movement patterns and engagement heat mapping
-- **Feedback Analysis**: NLP-based theme extraction from visitor comments
-
-### Development & Fundraising
-- **Donor Lifecycle Management**: Stage-based analytics and intervention triggers
-- **Gift Propensity Modeling**: Predictive scoring for major gift potential
-- **Grant Impact Reporting**: Automated outcomes measurement for funders
-- **Membership Analytics**: Conversion, renewal, and upgrade path optimization
-- **Wealth Screening Integration**: Data enrichment and prioritization scoring
-
-### Program Impact Measurement
-- **Outcome Tracking**: Measurement against Theory of Change framework
-- **Educational Impact**: Learning outcomes and participant progress analytics
-- **Community Engagement**: Reach and representation analytics by demographic
-- **Cultural Preservation**: Historical awareness and knowledge transfer metrics
-- **Economic Impact**: Visitor spending and local economic contribution analysis
 
 ---
 
