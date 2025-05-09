@@ -42,7 +42,7 @@
     - [Long-term Outcomes (720 days)](#long-term-outcomes-720-days)
     - [Key Success Metrics](#key-success-metrics)
 10. [Future State Vision](#future-state-vision)
-11. [Appendix: Modern Data Stack Best Practices](#appendix-modern-data-stack-best-practices)
+11. [Modern Data Stack Best Practices](#modern-data-stack-best-practices)
     - [Data Integration Best Practices](#data-integration-best-practices)
     - [Data Modeling Best Practices](#data-modeling-best-practices)
     - [Analytics Implementation Best Practices](#analytics-implementation-best-practices)
@@ -441,7 +441,7 @@ This upgrade will position Bethelwood to better deliver on its vision of making 
 
 ---
 
-## Appendix: Modern Data Stack Best Practices
+## Modern Data Stack Best Practices
 
 ### Data Integration Best Practices
 - Prioritize ELT over ETL for flexibility and raw data preservation
