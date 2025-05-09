@@ -14,7 +14,7 @@
    - [Data Integration Layer](#1-data-integration-layer)
    - [Cloud Data Warehouse](#2-cloud-data-warehouse)
    - [Transformation Layer](#3-transformation-layer)
-   - [Business Intelligence, Data Science & Advanced Analytics](#4-business-intelligence--data-science--advanced-analytics)
+   - [Business Intelligence, Data Science & Advanced Analytics](#4-business-intelligence-data-science--advanced-analytics)
    - [Data Governance & Security](#5-data-governance--security)
 5. [Implementation Approach: Phased Timeline](#implementation-approach-phased-timeline)
    - [First 30 Days: Assessment & Initial Setup](#first-30-days-assessment--initial-setup)
