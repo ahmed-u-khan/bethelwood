@@ -53,10 +53,7 @@
    - [Analytics Enablement & Democratization](#3-analytics-enablement--democratization-months-6-12)
    - [Mission Impact Measurement Framework](#4-mission-impact-measurement-framework-months-3-12)
    - [Customer 360 & Experience Enhancement](#5-customer-360--experience-enhancement-months-9-18)
-13. [Technical Architecture Details](#technical-architecture-details)
-   - [Source Systems Integration](#source-systems-integration)
-   - [Data Warehouse Architecture](#data-warehouse-architecture)
-14. [Resource Requirements](#resource-requirements)
+13. [Resource Requirements](#resource-requirements)
     - [Technology Investments](#technology-investments)
     - [People Resources](#people-resources)
     - [Skills Development](#skills-development)
@@ -360,30 +357,6 @@ Based on the complex systems landscape at Bethelwood, we're facing several data-
 
 ---
 
-## Resource Requirements
-
-### Technology Investments
-- Cloud data warehouse licensing ($30-50K annually)
-- Data integration platform licensing ($15-25K annually)
-- Business intelligence platform licensing ($10-20K annually)
-- Infrastructure costs for cloud storage and compute ($15-25K annually)
-- Specialized tools for data quality, governance, etc. ($10-20K annually)
-
-### People Resources
-- Cross-functional data working group (0.1 FTE per member)
-- Data analyst to support implementation (potential future hire, Year 2)
-- External consultants for specialized implementation (budget: $50-75K)
-- Training and enablement resources ($5-10K annually)
-
-### Skills Development
-- Data literacy training program for all staff
-- Advanced analytics training for power users
-- Tool-specific certification for key stakeholders
-- Change management and adoption workshops
-- Executive data interpretation coaching
-
----
-
 ## Anticipated Outcomes & Success Metrics
 
 ### Short-term Outcomes (180 days)
@@ -619,130 +592,24 @@ This upgrade will position Bethelwood to better deliver on its vision of making 
 
 ---
 
-## Technical Architecture Details
+## Resource Requirements
 
-### Source Systems Integration
+### Technology Investments
+- Cloud data warehouse licensing ($30-50K annually)
+- Data integration platform licensing ($15-25K annually)
+- Business intelligence platform licensing ($10-20K annually)
+- Infrastructure costs for cloud storage and compute ($15-25K annually)
+- Specialized tools for data quality, governance, etc. ($10-20K annually)
 
-**Ticketing Ecosystem Integration**
-- **Ticketmaster/Archtics (Sybase)**
-  - Implement change data capture using Debezium or similar
-  - Deploy staging area for transformation before warehouse loading
-  - Create incremental load processes for performance optimization
-  - Develop historical data migration strategy
-  - Implement real-time event triggers for key transactions
+### People Resources
+- Cross-functional data working group (0.1 FTE per member)
+- Data analyst to support implementation (potential future hire, Year 2)
+- External consultants for specialized implementation (budget: $50-75K)
+- Training and enablement resources ($5-10K annually)
 
-- **Ticketmaster One (Snowflake)**
-  - Leverage native Snowflake data sharing capabilities
-  - Implement cross-cloud secure data transfer
-  - Create views for standardized access patterns
-  - Deploy monitoring for data refresh reliability
-  - Establish metadata synchronization
-
-- **FEVO, Pricemaster, TM Entry, Fortress**
-  - Implement API-based integration with each platform
-  - Create standardized event and transaction models
-  - Develop unified customer identification framework
-  - Build cross-platform event analytics
-  - Implement data quality validation rules
-
-- **Live Analytics & TM1**
-  - Create extract processes for reporting data
-  - Implement metadata mapping to core data models
-  - Develop report reconciliation processes
-  - Build historical performance trending
-
-**CRM Systems Integration**
-- **Raiser's Edge (SQL)**
-  - Implement CDC-based integration using Fivetran SQL connector
-  - Create transformation rules for data standardization
-  - Develop donor hierarchy and relationship models
-  - Implement historical trend analysis views
-  - Create matching rules for identity resolution
-
-**Marketing Automation Integration**
-- **TM Engage & Raiser's Edge Email**
-  - Implement campaign and engagement data collection
-  - Create unified contact and response models
-  - Develop email performance analytics
-  - Build customer engagement scoring
-  - Implement marketing attribution modeling
-
-- **TapOnIt (SMS)**
-  - Deploy API integration for campaign data
-  - Create mobile engagement analytics
-  - Implement cross-channel attribution framework
-  - Build unified customer messaging history
-
-**Operational Systems Integration**
-- **Campspot (MySQL)**
-  - Deploy Airbyte connector for MySQL integration
-  - Implement transformation for reservation normalization
-  - Create occupancy and forecasting models
-  - Develop seasonal trend analysis capabilities
-  - Build integration with event attendance data
-
-- **Zendesk (MySQL)**
-  - Implement service cloud connector with Fivetran
-  - Create customer support metrics and KPIs
-  - Develop sentiment analysis for support interactions
-  - Build service level reporting and trends
-  - Create customer satisfaction integration
-
-- **E-Maint**
-  - Implement API-based integration for maintenance data
-  - Create asset management data models
-  - Develop maintenance cost analytics
-  - Build predictive maintenance models
-  - Create facility usage and condition tracking
-
-- **Survey Monkey & Alchemer**
-  - Implement API integration for survey responses
-  - Create standardized satisfaction metrics
-  - Develop text analytics for open-ended responses
-  - Build longitudinal satisfaction trending
-  - Create program impact measurement models
-
-- **Yellow Dog**
-  - Implement inventory system integration
-  - Create product hierarchy models
-  - Develop inventory analytics and forecasting
-  - Build product profitability analysis
-  - Create stock-out prediction models
-
-**POS Systems Integration**
-- **Clover (Museum Store)**
-  - Implement API-based integration with transaction-level detail
-  - Create product hierarchy and categorization model
-  - Develop inventory and sales correlation analytics
-  - Build customer purchase pattern analysis
-  - Create event-based sales attribution models
-
-- **Square (Concessions & Merchandise)**
-  - Implement native Square API integration
-  - Create unified transaction data model
-  - Develop sales trend analytics by location and event
-  - Build product mix optimization models
-  - Create staff performance analytics
-
-
-### Data Warehouse Architecture
-
-**Data Storage Layers**
-- Raw/Bronze: Exact copies of source data with minimal transformation
-- Standard/Silver: Cleansed, validated, and standardized data
-- Analytics/Gold: Business-ready dimensional models and aggregates
-- Specialized: Purpose-built datasets for specific analytical needs
-
-**Performance Optimization**
-- Implement clustering keys for frequent query patterns
-- Deploy materialized views for common aggregations
-- Create query acceleration with result caching
-- Implement column-level security for fine-grained access control
-- Develop workload management for resource allocation
-
-**Development Methodology**
-- Implement CI/CD pipeline for data model deployment
-- Create automated testing for data transformation validation
-- Develop documentation-as-code approach
-- Establish sandbox environments for exploration
-- Implement feature branching workflow for development
+### Skills Development
+- Data literacy training program for all staff
+- Advanced analytics training for power users
+- Tool-specific certification for key stakeholders
+- Change management and adoption workshops
+- Executive data interpretation coaching
