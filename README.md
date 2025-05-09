@@ -215,6 +215,7 @@ Based on the complex systems landscape at Bethelwood, we're facing several data-
 ### Technology Investments
 - Based on past experience, 50k is usually the number, however depending on size/frequency of data, it could easily be 30k overall or 90k
   - requires more research and understanding of data quantity and data needs
+  - (mock estimates found here)[https://docs.google.com/spreadsheets/d/19v6Bvfe8vfoMX7NeeI3TjSo80HiE9OV6etiyEJ2RZBw/edit?gid=0#gid=0]
 
 ### People Resources
 - Cross-functional data working group (0.1 FTE per member)
@@ -318,7 +319,7 @@ Based on the complex systems landscape at Bethelwood, we're facing several data-
 
 ## Future State Vision
 
-In 18-24 months, Bethelwood will have transformed its data capabilities to enable:
+In 18-36 months, Bethelwood will have transformed its data capabilities to enable:
 
 - **Holistic Understanding**: 360-degree view of constituents across all touchpoints powered by unified data platform
 - **Predictive Intelligence**: AI-driven insights guiding programming, marketing, and development decisions
