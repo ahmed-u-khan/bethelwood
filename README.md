@@ -1,4 +1,4 @@
-# Comprehensive Data Strategy
+# Potential Data Strategy
 ## Bethelwood
 
 ---
