@@ -215,7 +215,7 @@ Based on the complex systems landscape at Bethelwood, we're facing several data-
 ### Technology Investments
 - Based on past experience, 50k is usually the number, however depending on size/frequency of data, it could easily be 30k overall or 90k
   - requires more research and understanding of data quantity and data needs
-  - (mock estimates found here)[https://docs.google.com/spreadsheets/d/19v6Bvfe8vfoMX7NeeI3TjSo80HiE9OV6etiyEJ2RZBw/edit?gid=0#gid=0]
+  - [mock estimates found here](https://docs.google.com/spreadsheets/d/19v6Bvfe8vfoMX7NeeI3TjSo80HiE9OV6etiyEJ2RZBw/edit?gid=0#gid=0)
 
 ### People Resources
 - Cross-functional data working group (0.1 FTE per member)
@@ -235,19 +235,18 @@ Based on the complex systems landscape at Bethelwood, we're facing several data-
 ### First 30 Days: Assessment & Initial Setup
 - Implement Data Request Intake form and task/request trackign system
 - Identify 3-5 "quick win" opportunities with high visibility and immediate value
-- Complete detailed system inventory and data mapping across all platforms
+- Complete system inventory and data mapping across all platforms
 - Establish data governance framework and form cross-functional working group
 - Start cloud data warehouse platform evaluation and selection process
-- Develop comprehensive stakeholder communication and engagement plan
+- Develop stakeholder communication and engagement plan
 - Create initial data quality assessment of critical systems
 - Begin documentation of existing manual reporting processes
 - Conduct stakeholder interviews to identify priority use cases
 - Complete gap analysis between current and desired state
 
 ### 60 Days: Foundation Building & Early Wins
-- Finalize selection of cloud data warehouse platform (Snowflake recommended)
+- Finalize selection of cloud data warehouse platform
 - Deploy initial cloud data warehouse environments (DEV/TEST)
-- Complete data governance charter and standard operating procedures
 - Implement first data integration for highest-priority system (likely Ticketmaster)
 - Develop prototype of executive KPI dashboard with available data
 - Establish data quality baseline metrics for core systems
