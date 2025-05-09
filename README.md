@@ -22,25 +22,26 @@
    - [Transformation Layer](#3-transformation-layer)
    - [Business Intelligence, Data Science & Advanced Analytics](#4-business-intelligence-data-science--advanced-analytics)
    - [Data Governance & Security](#5-data-governance--security)
-6. [Implementation Approach: Phased Timeline](#implementation-approach-phased-timeline)
+6. [Resource Requirements](#resource-requirements)
+    - [Technology Investments](#technology-investments)
+    - [People Resources](#people-resources)
+    - [Skills Development](#skills-development)
+7. [Implementation Approach: Phased Timeline](#implementation-approach-phased-timeline)
    - [First 30 Days: Assessment & Initial Setup](#first-30-days-assessment--initial-setup)
    - [60 Days: Foundation Building & Early Wins](#60-days-foundation-building--early-wins)
    - [90 Days: Core Infrastructure & First Insights](#90-days-core-infrastructure--first-insights)
    - [180 Days: Value Expansion & Analytics Foundation](#180-days-value-expansion--analytics-foundation)
    - [360 Days: Advanced Analytics & Insights Maturity](#360-days-advanced-analytics--insights-maturity)
    - [720 Days: Intelligence Embedding & Innovation](#720-days-intelligence-embedding--innovation)
-7. [Future State Vision](#future-state-vision)
-8. [Risk Management](#risk-management)
+8. [Future State Vision](#future-state-vision)
+9. [Risk Management](#risk-management)
     - [Key Risks and Mitigation Strategies](#key-risks-and-mitigation-strategies)
-9. [Governance Structure](#governance-structure)
+10. [Governance Structure](#governance-structure)
     - [Data Governance Council](#data-governance-council)
     - [Working Groups](#working-groups)
     - [Decision Framework](#decision-framework)
     - [Operational Oversight](#operational-oversight)
-10. [Resource Requirements](#resource-requirements)
-    - [Technology Investments](#technology-investments)
-    - [People Resources](#people-resources)
-    - [Skills Development](#skills-development)
+
 
 
 ---
@@ -209,12 +210,32 @@ Based on the complex systems landscape at Bethelwood, we're facing several data-
 
 ---
 
+## Resource Requirements
+
+### Technology Investments
+- Based on past experience, 50k is usually the number, however depending on size/frequency of data, it could easily be 30k overall or 90k
+  - requires more research and understanding of data quantity and data needs
+
+### People Resources
+- Cross-functional data working group (0.1 FTE per member)
+- Data analyst/scientist (potential future hire, Year 2)
+
+### Skills Development
+- Data literacy training program for all staff
+- Advanced analytics training for power users
+- Tool-specific certification for key stakeholders
+- Change management and adoption workshops
+- Executive data interpretation coaching
+
+---
+
 ## Implementation Approach: Phased Timeline
 
 ### First 30 Days: Assessment & Initial Setup
+- Implement Data Request Intake form and task/request trackign system
+- Identify 3-5 "quick win" opportunities with high visibility and immediate value
 - Complete detailed system inventory and data mapping across all platforms
 - Establish data governance framework and form cross-functional working group
-- Identify 3-5 "quick win" opportunities with high visibility and immediate value
 - Start cloud data warehouse platform evaluation and selection process
 - Develop comprehensive stakeholder communication and engagement plan
 - Create initial data quality assessment of critical systems
@@ -315,7 +336,7 @@ This upgrade will position Bethelwood to better deliver on its vision of making 
 ### Key Risks and Mitigation Strategies
 
 1. **Data Silos Resistance**
-   - Risk Level: High
+   - Risk Level: Low-Medium
    - Impact: High
    - Mitigation: Executive sponsorship, clear ROI communication, department-specific benefits documentation, early wins demonstration, incremental approach to integration
 
@@ -345,7 +366,7 @@ This upgrade will position Bethelwood to better deliver on its vision of making 
    - Mitigation: Targeted training program, external consultants for specialized needs, modern low-code/no-code tools where appropriate, comprehensive documentation
 
 7. **Budget Overruns**
-   - Risk Level: Medium
+   - Risk Level: Low-Medium
    - Impact: High
    - Mitigation: Phased implementation with stage gates, cloud usage monitoring, clear success metrics, regular financial reviews, contingency planning
 
@@ -371,38 +392,8 @@ This upgrade will position Bethelwood to better deliver on its vision of making 
 - **Impact Measurement Working Group**: Focus on program evaluation framework
 - **Technical Working Group**: Focus on architecture and integration issues
 
-### Decision Framework
-- RACI matrix for all data-related decisions
-- Escalation paths for issue resolution
-- Change management process for data model evolution
-- Data prioritization framework based on strategic value
-
 ### Operational Oversight
 - Weekly status reporting during implementation phases
 - Data quality scorecards by domain
 - System integration status dashboard
 - Adoption and usage metrics tracking
-
----
-
-## Resource Requirements
-
-### Technology Investments
-- Cloud data warehouse licensing ($30-50K annually)
-- Data integration platform licensing ($15-25K annually)
-- Business intelligence platform licensing ($10-20K annually)
-- Infrastructure costs for cloud storage and compute ($15-25K annually)
-- Specialized tools for data quality, governance, etc. ($10-20K annually)
-
-### People Resources
-- Cross-functional data working group (0.1 FTE per member)
-- Data analyst to support implementation (potential future hire, Year 2)
-- External consultants for specialized implementation (budget: $50-75K)
-- Training and enablement resources ($5-10K annually)
-
-### Skills Development
-- Data literacy training program for all staff
-- Advanced analytics training for power users
-- Tool-specific certification for key stakeholders
-- Change management and adoption workshops
-- Executive data interpretation coaching
